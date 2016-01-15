@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack -p --colors --display-modules",
+    "watch": "webpack --devtool inline-source-map --watch --progress --colors --display-modules"
+  },
+  "dependencies": {
+    "imba": "^0.14.3",
+    "imba-loader": "^1.0.1",
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0",
+    "webpack": "^1.12.11"
+  }
+}
